@@ -1,0 +1,194 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --branco_principal: #ffffff;
+    --cinza_secundaty: #C0C0C0;
+    --azul: #167BF7;
+    --cor_principal: #00030C;
+    --font-principal:'Inter', sans-serif;
+}
+
+body {
+    background: var(--cor_principal);
+    color: var(--branco_principal);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.principal {
+    background-image: url("./assets/Background\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center ;
+    text-align: center;
+}
+
+.container_caixa{
+    margin: 0 6em;
+}
+
+.container_titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__botao {
+    background-color: var(--azul);
+    border-radius: 8px;
+    padding: 1em;
+    text-decoration: none;
+    color: var(--branco_principal);
+    display: block;
+    margin-bottom: 1em;
+}
+
+.botao_secundary {
+    background-color: transparent;
+    border: 1px solid var(--branco_principal);
+}
+
+.container__botao:hover{
+    background:  #17365b;
+}
+
+.container_aviso{
+    font-size: 12px;
+    color: var(--cinza_secundaty);
+}
+
+.container_imagem{
+    margin: 1em 0 2em 0;
+}
+
+
+.container_img{
+    width: 80%;
+}
+
+.container_desciption{
+    text-align: center;
+}
+
+.secundary{
+    align-items: center;
+    margin: 0 12em;
+}
+
+.description_titulo{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco_principal);
+    margin-bottom: 0.3em;
+}
+
+.description_p{
+    font-size: 16px;
+    color: var(--cinza_secundaty);
+}
+
+.secundary_butao{
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.container_description{
+    padding: 2em;
+}
+
+.dispositivos_lista{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 1px;
+}
+
+.dispositivos{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.lista_dos_itens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dispositivos_titulos{
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.lista_item{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--branco_principal);
+}
+
+.img{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+ 
+.footer_alura{
+    margin-top: 60px;
+}
+
+.container_rodape{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+
+}
+
+.lista_footer{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.itens_lista{
+    text-decoration: none;
+    color: var(--branco_principal);
+}
+
+.rodape_p{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 5em;
+}
+
+.text_p{
+    font-size: 12px;
+    color: var(--cinza_secundaty);
+    text-align: center;
+    padding: 0 300px;
+}
+
+.itens_lista:hover{
+    color: var(--azul);
+}
